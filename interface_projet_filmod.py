@@ -1,18 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-APPLICATION WEB FLASK : Interface de Prévision RH
-Version 4.0 : Ajout de filtres par ligne, nouveaux graphiques et frontend amélioré.
-
-Pour exécuter cette application :
-1. Enregistrez ce fichier sous le nom `app.py`.
-2. Ouvrez un terminal (cmd, PowerShell, Terminal).
-3. Assurez-vous d'avoir les bibliothèques :
-   pip install Flask pandas numpy scikit-learn matplotlib
-4. Exécutez la commande :
-   python app.py
-5. Ouvrez http://127.0.0.1:5000 dans votre navigateur.
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
