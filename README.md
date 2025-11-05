@@ -1,8 +1,20 @@
 # 🚀 HR Forecasting Web Application
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931A?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Dataset](https://img.shields.io/badge/Dataset-4,050%20samples-brightgreen?style=for-the-badge)
+
 ## 📝 Description
 
-This project is a web-based HR forecasting application built with Flask. It predicts employee performance using a machine learning model and presents the insights through an interactive dashboard. The application generates its own dummy data for demonstration purposes, trains a RandomForest Regressor model, and visualizes historical data, future predictions, and key performance indicators.
+This project is a comprehensive, web-based HR forecasting application built with Flask. Its primary goal is to predict employee performance trends using a machine learning model, providing valuable insights to HR professionals and managers through an intuitive and interactive dashboard.
+
+The application simulates a real-world HR environment by generating its own rich, fictional dataset that includes employee information, skill evaluations across different categories (Maintenance, Production, Quality, Method), and historical performance data. This data is then used to train a `RandomForestRegressor` model from the scikit-learn library. The model learns from temporal features and the composition of skills to make accurate predictions about future performance scores.
+
+The dashboard is the core of the application, offering a clean, modern interface for users to explore the data, view predictions, and identify key factors influencing performance. All of this is contained within a single Python script, making it a powerful yet easy-to-deploy tool for HR analytics.
 
 ## ✨ Features
 
@@ -18,15 +30,6 @@ This project is a web-based HR forecasting application built with Flask. It pred
 -   **Filtering:** Allows users to filter the data by sector and production line.
 -   **Customizable Prediction Period:** Users can select the number of days for which they want to see the forecast.
 -   **Dummy Data Generation:** Includes a comprehensive script to generate realistic dummy data for employees, skills, and evaluations.
-
-## 🛠️ Technologies Used
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931A?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white)
 
 ## ⚙️ How to Run
 
