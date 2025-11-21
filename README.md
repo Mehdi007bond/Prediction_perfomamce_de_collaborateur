@@ -36,6 +36,10 @@ The dashboard is the core of the application, offering a clean, modern interface
 1.  **Install Dependencies:**
     Make sure you have Python installed. Then, install the required libraries using pip:
     ```bash
+    pip install -r requirements.txt
+    ```
+    Alternatively, you can install packages individually:
+    ```bash
     pip install pandas numpy scikit-learn matplotlib flask
     ```
 
